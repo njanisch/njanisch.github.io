@@ -1,0 +1,9 @@
+---
+---
+
+// Override Cayman’s variables BEFORE importing theme
+$header-bg-color: #1e6bb8;
+$header-bg-color-secondary: #990000;
+
+// Now import the theme, which will use your new variables
+@import "{{ site.theme }}";
